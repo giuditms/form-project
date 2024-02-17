@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sunflower:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" />
+    <script src="https://kit.fontawesome.com/4c536a6bd5.js" crossorigin="anonymous"></script>
+    <title>Sign-up Form</title>
+</head>
+
+<body>
+    <section class="left">
+        <div class="left-div">
+            <img src="frog.png" alt="">
+            <h1>Sign Up</h1>
+        </div>
+
+    </section>
+    <main>
+        <section class="main-top">
+            <p>This is not a real sign-up form!
+            </p>
+        </section>
+        <section class="main-bottom">
+            <form action="">
+                <h2>Let's do this!</h2>
+                <div class="sign-up-form">
+                    <div class="input-box">
+                        <label for="first_name">First Name</label>
+                        <input type="text" name="first_name" id="first_name" required>
+                    </div>
+                    <div class="input-box"><label for="last_name">Last Name</label>
+                        <input type="text" name="last_name" id="last_name" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="phone_num">Phone Number</label>
+                        <input type="number" name="phone_num" id="phone_num" minlength="10" maxlength="10">
+                    </div>
+                    <div class="input-box">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="conf-pass">Confirm Password</label>
+                        <input type="password" name="conf-pass" id="conf-pass" required>
+                    </div>
+                </div>
+                <button>Create Account</button>
+            </form>
+        </section>
+        <p>Already have an account? <a href="">Log in.</a></p>
+    </main>
+</body>
+<footer>
+    <p>
+        Copyright ©
+        <script>document.write(new Date().getFullYear())</script> <a href="https://github.com/giuditms"
+            target="_blank">giuditms <i class="fab fa-github"></i></a>
+    </p>
+</footer>
+
+</html>
